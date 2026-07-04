@@ -1,0 +1,11 @@
+    THESE emails AND passwors JUST FOR TESTING THE BACKEND :
+    -------------------------------------------------------
+
+vinay@gmail.com
+vinay
+id: 6a0b01325c49c3f9cffa7d4e
+
+
+amitabha@gmail.com
+amitabha
+id: 6a0b0fff8f84cba8fbd6a317

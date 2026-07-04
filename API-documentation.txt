@@ -1,0 +1,38 @@
+AUTH-ROUTER :
+-------------
+Register API: http://localhost:4000/api/v1/auth/register
+REQ: {fullname, email, password, role, bio, profileImage }
+RES: {success:true, message, userData}
+
+Login API: http://localhost:4000/api/v1/Login
+REQ : {email, password}
+RES : {success:true, message}
+
+LogOut API: http://localhost:4000/api/v1/logout 
+REQ : 
+RES : {success: true, message}
+
+GetMe API: http://localhost:4000/api/v1/me
+REQ : 
+RES : {success: true, message, req.user}
+
+
+COURSE-ROUTER :
+---------------
+Create API: http://localhost:4000/api/v1/course/create
+REQ : {title, description, category, level, language, requirements, learningOutcomes, thumbnail, trailertVideo, totalLectures, totalDuration, totalStudents}
+RES : { success: true, message, newCourseData}
+
+Update API: http://localhost:4000/api/v1/course/Update
+REQ : {courseId, oldThumbnail, oldTrailerVideo, title, description, category, level, language, requirements, learningOutcomes, thumbnail, trailertVideo, totalLectures, totalDuration, totalStudents}
+RES : { success: true, message, UpdatedCourseData}
+
+Delete API : http://localhost:4000/api/v1/course/delete
+REQ-PARAMS : courseId
+RES : {success: true, message, response}
+
+Get-All-Course API : http://localhost:4000/api/v1/course/all
+REQ-Query : {page, limit, category, language, level, search}
+RES : {success: true, pagination }
+
+Get-Single-Course API :

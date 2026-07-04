@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cherry+Cream+Soda&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fleur+De+Leah&family=Goldman:wght@400;700&family=Indie+Flower&family=Manufacturing+Consent&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nova+Cut&family=Playwrite+AU+QLD:wght@100..400&family=Special+Gothic+Expanded+One&display=swap');
+
+
+:root{
+
+      --primary: #2563ff;
+      --primary-dark: #1d4ed8;
+
+      --orange: #ff7a00;
+      --purple: #7c3aed;
+      --yellow: #facc15;
+      --green: #10b981;
+
+      --bg: #f7f9fc;
+      --white: #ffffff;
+      --text: #0f172a;
+      --text-light: #64748b;
+      --border: #e5e7eb;
+
+      --shadow:
+      0 10px 30px rgba(0,0,0,0.1);
+
+      --radius-lg: 28px;
+      --radius-md: 18px;
+      --radius-sm: 12px;
+
+      --container: 1200px;
+
+    }
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      background-color: var(--bg);
+      font-family: "EB Garamond", serif;
+    }

@@ -1,0 +1,25 @@
+Hooks: 
+------
+* BrowerRouter, Routes, Route
+* Link
+* FaSearch: import { FaSearch } from "react-icons/fa";    //for search icons
+* useLocation() : to find the current url/path {like: after api http:.../course, /about, }
+* npm i react-hot-toast
+
+
+
+route : /teacher/courses
+
+dashbord
+viewOption
+courses
+logout
+student performances
+
+heading : courses
+
+button on top-right: Add
+
+~ Icons :
+import { RxExit } from "react-icons/rx";  --> Exit
+import { AiOutlineDashboard } from "react-icons/ai";  --> Dashbord
